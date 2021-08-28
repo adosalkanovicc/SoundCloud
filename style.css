@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body 
+{
+    background-image: url("pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    font-family: 'Roboto';
+
+}
+header
+{
+align-items: center;
+height: 80px;
+display: flex;
+justify-content: space-between;
+}
+.buttoni
+{
+margin-right: 7%;
+}
+.logo
+{
+width: 150px;
+height: 100px;
+margin-left: 7%;
+}
+button
+{
+padding: .5em;
+}
+.prvi
+{
+background-color: #000;
+color: #fff;
+border: 1px solid #fff;
+}
+.drugi
+{
+background-color: rgb(255, 81, 0);
+color: #fff;
+border: 1px solid rgb(255, 81, 0);
+}
+.treci
+{
+background-color: transparent;
+border: 1px solid transparent;
+color: #fff;
+}
+.container
+{
+width: 80%;
+margin: 2em auto;
+text-align: center;
+}
+.naslov 
+{
+color: #fff;
+font-size: 1.6em;
+}
+.paragraf 
+{
+color: #fff;
+padding: 1em 0 4em 0;
+}
+.mainbutton
+{
+background-color: rgb(255, 81, 0);
+padding: 1em 2em;
+border: 1px solid rgb(255, 81, 0);
+color: #fff;
+border-radius: 7px;
+cursor: pointer;
+}
+.druga
+{
+width: 100%;
+background-color: #fff;
+text-align: center;
+min-height: 500px;
+margin: auto;
+}
+.stone 
+{
+width: 100%;
+display: flex;
+align-items: center;
+margin: 1.5em auto;
+}
+input
+{
+width: 60%;
+background-color: #f5f5f5;
+padding: 1em;
+border: 0;
+border-radius: 7px;
+display: inline-block;
+margin-top: 1.5em;
+}
+p
+{
+margin: 0.5em 0;
+}
+.nekibutton
+{
+    background-color: rgb(255, 81, 0);
+    padding: 1em 2em;
+    border: 1px solid rgb(255, 81, 0);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+}
+h2 
+{
+font-size: 1.3em;
+text-align: center;
+font-weight: 200;
+margin-top: 1em;
+color: rgb(2, 20, 43);
+}
+.sekcijaslika
+{
+display: block;
+}
+.prvii
+{
+margin: 1em 0 3em 0;
+}
+.eminem 
+{
+width: 300px;
+height: 300px;
+box-shadow: 5px 5px 5px #ccc;
+cursor: pointer;
+}
+.drugii
+{
+    margin: 1em 0 3em 0;
+}
+.ppppp
+{
+opacity: .6;
+}
+.logann
+{
+width: 300px;
+height: 300px;
+box-shadow: 5px 5px 5px #ccc;
+cursor: pointer;
+}
+.trecii
+{
+    margin: 1em 0 3em 0;
+}
+.travis
+{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.rihannaa
+{
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 5px #ccc;
+    cursor: pointer;
+}
+
+.osamnesti
+{
+    background-color: rgb(255, 81, 0);
+    padding: 1em 2em;
+    border: 1px solid rgb(255, 81, 0);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 2em 0;
+}
+.treca
+{
+width: 100%;
+margin: 2em auto 0 auto;
+text-align: center;
+background-color: #f3f3f3;
+}
+.novaslija
+{
+width: 100%;
+height: auto;
+}
+.natpisi
+{
+width: 100%;
+background-color: #000;
+color: #fff;
+height: 200px;
+align-items: center;
+}
+.prvinatpis
+{
+padding: 30px 0 0 0;
+}
+.para 
+{
+padding: 25px 0 0 0;
+}
+.devetnesti
+{
+padding: 1em 2em;
+color: #fff;
+border: 1px solid #fff;
+background-color: #000;
+cursor: pointer;
+}
+.cetvrta
+{
+width: 100%;
+background-color: #fff;
+margin: 0 auto;
+text-align: center;
+}
+
+.thanks
+{
+text-align: center;
+margin-top: 2em;
+}
+.thankss
+{
+font-size: 1em;
+}
+.dvadeseti
+{
+    background-color: rgb(255, 81, 0);
+    padding: 1em 2em;
+    border: 1px solid rgb(255, 81, 0);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.dvajsprvi
+{
+border: 0.5px solid #000;
+margin-bottom: 2em;
+}
+footer
+{
+width: 100%;
+height: 200px;
+background-color: #f3f3f3;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1em;
+}
+li 
+{
+display: block;
+opacity: 0.6;
+padding: 7px;
+
+}
+@media (min-width: 900px)
+{
+body 
+{
+margin: 0 auto;
+background-image: url("pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    font-family: 'Roboto';
+
+}
+.wrapper
+{
+width: 80%;
+margin: 0 auto;
+}
+.sekcijaslika
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+margin: 0 auto;
+}
+
+.prvii, .drugii, .trecii, .cetvrtii
+{
+max-width: 300px;
+}
+.treca 
+{
+display: flex;
+align-items: center;
+background-color: #000;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+.cetvrta 
+{
+margin-top: 2em;
+}
+}
